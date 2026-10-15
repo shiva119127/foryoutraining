@@ -1,0 +1,21 @@
+{
+  "cold_startup_ms": 5612,
+  "total_warm_samples": 10,
+  "min_ms": 2177,
+  "median_p50_ms": 2990,
+  "average_ms": 2918,
+  "p95_ms": 3692,
+  "max_ms": 3692,
+  "latencies_ms": [
+    2177,
+    2403,
+    2651,
+    2734,
+    2960,
+    2990,
+    3114,
+    3204,
+    3258,
+    3692
+  ]
+}

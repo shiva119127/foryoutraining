@@ -1,0 +1,382 @@
+{
+  "profiles": {
+    "user_a_aarav": {
+      "id": "user_a_aarav",
+      "email": "aarav@test.foryou",
+      "full_name": "Aarav Mehta",
+      "avatar_url": "⚡",
+      "city": "Bengaluru",
+      "onboarding_completed": false,
+      "created_at": "2026-10-15T11:55:37.684Z",
+      "updated_at": "2026-10-15T11:55:37.691Z"
+    },
+    "user_b_diya": {
+      "id": "user_b_diya",
+      "email": "diya@test.foryou",
+      "full_name": "Diya Sharma",
+      "avatar_url": "🌿",
+      "city": "Bengaluru",
+      "onboarding_completed": false,
+      "created_at": "2026-10-15T11:55:37.692Z",
+      "updated_at": "2026-10-15T11:55:37.692Z"
+    },
+    "user_c_kabir": {
+      "id": "user_c_kabir",
+      "email": "kabir@test.foryou",
+      "full_name": "Kabir Sen",
+      "avatar_url": "🎸",
+      "city": "Bengaluru",
+      "onboarding_completed": false,
+      "created_at": "2026-10-15T11:55:37.692Z",
+      "updated_at": "2026-10-15T11:55:37.692Z"
+    },
+    "user_d_ananya": {
+      "id": "user_d_ananya",
+      "email": "ananya@test.foryou",
+      "full_name": "Ananya Roy",
+      "avatar_url": "🧭",
+      "city": "Bengaluru",
+      "onboarding_completed": false,
+      "created_at": "2026-10-15T11:55:37.692Z",
+      "updated_at": "2026-10-15T11:55:37.692Z"
+    },
+    "user_e_rohan": {
+      "id": "user_e_rohan",
+      "email": "rohan@test.foryou",
+      "full_name": "Rohan Verma",
+      "avatar_url": "♟️",
+      "city": "Bengaluru",
+      "onboarding_completed": false,
+      "created_at": "2026-10-15T11:55:37.692Z",
+      "updated_at": "2026-10-15T11:55:37.692Z"
+    }
+  },
+  "user_interests": {
+    "user_a_aarav": [
+      {
+        "id": "mem_1792065337692_xu8u",
+        "user_id": "user_a_aarav",
+        "interest": "Badminton",
+        "source": "explicit",
+        "confidence": 0.95,
+        "created_at": "2026-10-15T11:55:37.692Z",
+        "updated_at": "2026-10-15T11:55:37.692Z"
+      },
+      {
+        "id": "mem_1792065337693_5kj7",
+        "user_id": "user_a_aarav",
+        "interest": "Live Music & Gigs",
+        "source": "explicit",
+        "confidence": 0.95,
+        "created_at": "2026-10-15T11:55:37.692Z",
+        "updated_at": "2026-10-15T11:55:37.692Z"
+      }
+    ],
+    "user_b_diya": [
+      {
+        "id": "mem_1792065337693_mdd0",
+        "user_id": "user_b_diya",
+        "interest": "Specialty Cafés & Coffee",
+        "source": "explicit",
+        "confidence": 0.95,
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.693Z"
+      }
+    ],
+    "conflict_user": [
+      {
+        "id": "mem_1792065337696_e5do",
+        "user_id": "conflict_user",
+        "interest": "Art & Pottery Workshops",
+        "source": "explicit",
+        "confidence": 0.95,
+        "created_at": "2026-10-15T11:55:37.696Z",
+        "updated_at": "2026-10-15T11:55:37.696Z"
+      }
+    ]
+  },
+  "user_likes": {
+    "user_a_aarav": [],
+    "user_b_diya": [
+      {
+        "id": "mem_1792065337693_64w9",
+        "user_id": "user_b_diya",
+        "like_item": "Relaxed, calm places with unhurried vibe",
+        "source": "explicit",
+        "confidence": 0.95,
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.693Z"
+      }
+    ],
+    "conflict_user": []
+  },
+  "user_dislikes": {
+    "user_a_aarav": [],
+    "user_b_diya": [
+      {
+        "id": "mem_1792065337693_4xur",
+        "user_id": "user_b_diya",
+        "dislike_item": "Loud or noisy environments",
+        "source": "explicit",
+        "confidence": 0.95,
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.693Z"
+      },
+      {
+        "id": "mem_1792065337693_aj9u",
+        "user_id": "user_b_diya",
+        "dislike_item": "Crowded or congested environments",
+        "source": "explicit",
+        "confidence": 0.95,
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.693Z"
+      }
+    ],
+    "conflict_user": [
+      {
+        "id": "mem_1792065337696_8z4g",
+        "user_id": "conflict_user",
+        "dislike_item": "Crowded or congested environments",
+        "source": "explicit",
+        "confidence": 0.95,
+        "created_at": "2026-10-15T11:55:37.696Z",
+        "updated_at": "2026-10-15T11:55:37.696Z"
+      }
+    ]
+  },
+  "user_preferences": {
+    "user_a_aarav": [
+      {
+        "id": "mem_1792065337692_xu8u",
+        "user_id": "user_a_aarav",
+        "category": "activity",
+        "key": "badminton",
+        "value": "Badminton",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I love large groups, live concerts and playing badminton!",
+        "first_seen_at": "2026-10-15T11:55:37.692Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.692Z",
+        "created_at": "2026-10-15T11:55:37.692Z",
+        "updated_at": "2026-10-15T11:55:37.692Z"
+      },
+      {
+        "id": "mem_1792065337693_5kj7",
+        "user_id": "user_a_aarav",
+        "category": "interest",
+        "key": "live_music",
+        "value": "Live Music & Gigs",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I love large groups, live concerts and playing badminton!",
+        "first_seen_at": "2026-10-15T11:55:37.692Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.692Z",
+        "created_at": "2026-10-15T11:55:37.692Z",
+        "updated_at": "2026-10-15T11:55:37.692Z"
+      },
+      {
+        "id": "mem_1792065337693_95au",
+        "user_id": "user_a_aarav",
+        "category": "group_preference",
+        "key": "preferred_size",
+        "value": "Large groups (6+ people)",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I love large groups, live concerts and playing badminton!",
+        "first_seen_at": "2026-10-15T11:55:37.692Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.692Z",
+        "created_at": "2026-10-15T11:55:37.692Z",
+        "updated_at": "2026-10-15T11:55:37.692Z"
+      },
+      {
+        "id": "mem_1792065337693_knap",
+        "user_id": "user_a_aarav",
+        "category": "social_style",
+        "key": "interaction_type",
+        "value": "High energy & vibrant crowd",
+        "source": "inferred",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I love large groups, live concerts and playing badminton!",
+        "first_seen_at": "2026-10-15T11:55:37.692Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.692Z",
+        "created_at": "2026-10-15T11:55:37.692Z",
+        "updated_at": "2026-10-15T11:55:37.692Z"
+      }
+    ],
+    "user_b_diya": [
+      {
+        "id": "mem_1792065337693_mdd0",
+        "user_id": "user_b_diya",
+        "category": "interest",
+        "key": "cafes",
+        "value": "Specialty Pour-over Coffee",
+        "source": "user_confirmed",
+        "confidence": 1,
+        "status": "active",
+        "evidence": "I prefer small groups, quiet cafés and reading.",
+        "first_seen_at": "2026-10-15T11:55:37.693Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.696Z",
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.696Z"
+      },
+      {
+        "id": "mem_1792065337693_qvu3",
+        "user_id": "user_b_diya",
+        "category": "group_preference",
+        "key": "preferred_size",
+        "value": "Small groups (2–4 people)",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I prefer small groups, quiet cafés and reading.",
+        "first_seen_at": "2026-10-15T11:55:37.693Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.693Z",
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.693Z"
+      },
+      {
+        "id": "mem_1792065337693_dnwp",
+        "user_id": "user_b_diya",
+        "category": "social_style",
+        "key": "interaction_type",
+        "value": "Quiet, intimate conversation",
+        "source": "inferred",
+        "confidence": 0.85,
+        "status": "active",
+        "evidence": "I prefer small groups, quiet cafés and reading.",
+        "first_seen_at": "2026-10-15T11:55:37.693Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.693Z",
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.693Z"
+      },
+      {
+        "id": "mem_1792065337693_64w9",
+        "user_id": "user_b_diya",
+        "category": "atmosphere",
+        "key": "calm_spaces",
+        "value": "Relaxed, calm places with unhurried vibe",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I prefer small groups, quiet cafés and reading.",
+        "first_seen_at": "2026-10-15T11:55:37.693Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.693Z",
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.693Z"
+      },
+      {
+        "id": "mem_1792065337693_4xur",
+        "user_id": "user_b_diya",
+        "category": "dislike",
+        "key": "loud_places",
+        "value": "Loud or noisy environments",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I avoid noisy, crowded places with loud music.",
+        "first_seen_at": "2026-10-15T11:55:37.693Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.693Z",
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.693Z"
+      },
+      {
+        "id": "mem_1792065337693_aj9u",
+        "user_id": "user_b_diya",
+        "category": "dislike",
+        "key": "crowded_places",
+        "value": "Crowded or congested environments",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I avoid noisy, crowded places with loud music.",
+        "first_seen_at": "2026-10-15T11:55:37.693Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.693Z",
+        "created_at": "2026-10-15T11:55:37.693Z",
+        "updated_at": "2026-10-15T11:55:37.693Z"
+      }
+    ],
+    "conflict_user": [
+      {
+        "id": "mem_1792065337696_0lp1",
+        "user_id": "conflict_user",
+        "category": "group_preference",
+        "key": "preferred_size",
+        "value": "Small groups (2–4 people)",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I've started avoiding really crowded places, I prefer small groups now.",
+        "first_seen_at": "2026-10-15T11:55:37.696Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.696Z",
+        "created_at": "2026-10-15T11:55:37.696Z",
+        "updated_at": "2026-10-15T11:55:37.696Z"
+      },
+      {
+        "id": "mem_1792065337696_hj0h",
+        "user_id": "conflict_user",
+        "category": "social_style",
+        "key": "interaction_type",
+        "value": "High energy & vibrant crowd",
+        "source": "inferred",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I love large groups and vibrant crowds.",
+        "first_seen_at": "2026-10-15T11:55:37.695Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.695Z",
+        "created_at": "2026-10-15T11:55:37.696Z",
+        "updated_at": "2026-10-15T11:55:37.696Z"
+      },
+      {
+        "id": "mem_1792065337696_e5do",
+        "user_id": "conflict_user",
+        "category": "activity",
+        "key": "art_workshops",
+        "value": "Art & Pottery Workshops",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I've started avoiding really crowded places, I prefer small groups now.",
+        "first_seen_at": "2026-10-15T11:55:37.696Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.696Z",
+        "created_at": "2026-10-15T11:55:37.696Z",
+        "updated_at": "2026-10-15T11:55:37.696Z"
+      },
+      {
+        "id": "mem_1792065337696_8z4g",
+        "user_id": "conflict_user",
+        "category": "dislike",
+        "key": "crowded_places",
+        "value": "Crowded or congested environments",
+        "source": "explicit",
+        "confidence": 0.95,
+        "status": "active",
+        "evidence": "I've started avoiding really crowded places, I prefer small groups now.",
+        "first_seen_at": "2026-10-15T11:55:37.696Z",
+        "last_confirmed_at": "2026-10-15T11:55:37.696Z",
+        "created_at": "2026-10-15T11:55:37.696Z",
+        "updated_at": "2026-10-15T11:55:37.696Z"
+      }
+    ]
+  },
+  "user_social_preferences": {},
+  "user_availability": {},
+  "user_safety_preferences": {},
+  "user_temporary_context": {},
+  "conversations": {
+    "conv_1792065337697_w8lzu": {
+      "id": "conv_1792065337697_w8lzu",
+      "user_id": "user_a_aarav",
+      "conversation_type": "onboarding",
+      "created_at": "2026-10-15T11:55:37.697Z",
+      "updated_at": "2026-10-15T11:55:37.697Z"
+    }
+  },
+  "messages": {
+    "conv_1792065337697_w8lzu": []
+  },
+  "experiences": {}
+}

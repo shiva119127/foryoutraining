@@ -1,0 +1,84 @@
+[
+  {
+    "id": "PREF-01",
+    "name": "Interests & Preferred Neighborhoods",
+    "passed": true,
+    "elapsed_s": 3.9147109985351562,
+    "raw_json": "{\n  \"action\": \"save_preferences\",\n  \"interests\": [\n    \"specialty_coffee_tasting\",\n    \"artisanal_pottery\"\n  ],\n  \"preferred_neighborhoods\": [\n    \"Indiranagar\"\n  ]\n}",
+    "active_profile": {
+      "interests": [
+        "Specialty Coffee Tasting",
+        "Artisanal Pottery"
+      ],
+      "preferred_neighborhoods": [
+        "Indiranagar"
+      ],
+      "budget_max": null
+    }
+  },
+  {
+    "id": "PREF-02",
+    "name": "Numeric INR Budget & Neighborhood",
+    "passed": true,
+    "elapsed_s": 3.3294999599456787,
+    "raw_json": "{\n  \"action\": \"save_preferences\",\n  \"interests\": [\n    \"indie_board_games\"\n  ],\n  \"preferred_neighborhoods\": [\n    \"Bandra West\"\n  ],\n  \"budget_inr_max\": 1500\n}",
+    "active_profile": {
+      "interests": [
+        "Indie Board Games"
+      ],
+      "preferred_neighborhoods": [
+        "Bandra West"
+      ],
+      "budget_max": 1500
+    }
+  },
+  {
+    "id": "PREF-03",
+    "name": "Missing Preferences (No Hallucinated Budget or Location)",
+    "passed": true,
+    "elapsed_s": 3.3344309329986572,
+    "raw_json": "{\n  \"action\": \"save_preferences\",\n  \"interests\": [\n    \"modern_strategy_board_games\"\n  ],\n  \"preferred_neighborhoods\": [\n    \"city_a\",\n    \"city_b\"\n  ],\n  \"budget_inr_max\": 100\n}",
+    "active_profile": {
+      "interests": [
+        "Modern Strategy Board Games"
+      ],
+      "preferred_neighborhoods": [],
+      "budget_max": null
+    }
+  },
+  {
+    "id": "PREF-04",
+    "name": "Correcting a Previously Stated Preference",
+    "passed": true,
+    "elapsed_s": 3.3162219524383545,
+    "raw_json": "{\n  \"action\": \"update_preferences\",\n  \"interests\": [\n    \"pottery_in_whitefield\"\n  ],\n  \"preferred_neighborhoods\": [\n    \"Koramangala\"\n  ],\n  \"budget_inr_max\": 1200\n}",
+    "active_profile": {
+      "interests": [
+        "Artisanal Pottery",
+        "Pottery In Whitefield"
+      ],
+      "preferred_neighborhoods": [
+        "Koramangala"
+      ],
+      "budget_max": 1200
+    }
+  },
+  {
+    "id": "PREF-05",
+    "name": "Multiple Preferences in Multi-Turn Conversation",
+    "passed": true,
+    "elapsed_s": 4.123370885848999,
+    "raw_json": "{\n  \"action\": \"save_preferences\",\n  \"interests\": [\n    \"outdoor_cycling\",\n    \"sourdough_baking\"\n  ],\n  \"preferred_neighborhoods\": [\n    \"Hauz Khas Village\"\n  ],\n  \"budget_inr_max\": 800\n}",
+    "active_profile": {
+      "interests": [
+        "Outdoor Cycling",
+        "Sourdough Baking",
+        "Specialty Coffee Tasting"
+      ],
+      "preferred_neighborhoods": [
+        "Hauz Khas Village"
+      ],
+      "budget_max": 800
+    }
+  }
+]

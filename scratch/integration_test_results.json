@@ -1,0 +1,22 @@
+[
+  {
+    "step": "Initial Extraction & Persistence",
+    "passed": true,
+    "detail": "Active interests: ['Specialty Coffee Tasting', 'Linocut Printmaking'], Hoods: ['Indiranagar'], Budget: 800"
+  },
+  {
+    "step": "Supplying Profile to Planner",
+    "passed": true,
+    "detail": "Planner response aligned with stored profile constraints (mentions relevant terms & asks question)."
+  },
+  {
+    "step": "Preference Update & Conflict Resolution",
+    "passed": true,
+    "detail": "Active budget: 1500 (superseded old budget 800 successfully)."
+  },
+  {
+    "step": "Safe Rejection of Invalid Output",
+    "passed": true,
+    "detail": "All 4/4 malformed payloads safely rejected; zero DB corruption."
+  }
+]
